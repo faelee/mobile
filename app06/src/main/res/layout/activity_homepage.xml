@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_Main"
+    android:background="@color/bg">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintGuide_percent=".6"
+        android:orientation="horizontal"
+        android:id="@+id/top" />
+
+    <EditText
+        android:id="@+id/edit"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColorHint="@color/text"
+        android:textColor="@color/colorPrimary"
+        android:layout_margin="10dp"
+        android:textSize="24sp"
+        android:fontFamily="@font/bakso_sapi"
+        android:hint="@string/which_denimal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/next"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/page"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+        android:text="@string/click_to_learn_more"
+        android:backgroundTint="@color/colorPrimary"
+        android:fontFamily="@font/bakso_sapi"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/submit"/>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="@string/enter"
+        android:backgroundTint="@color/colorPrimary"
+        android:fontFamily="@font/bakso_sapi"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edit"
+        app:layout_constraintBottom_toTopOf="@+id/page"/>
+
+    <ImageView
+        android:id="@+id/pic"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/day6"
+        app:layout_constraintWidth_percent="0.95"
+        app:layout_constraintHeight_percent="0.6"
+        app:layout_constraintBottom_toTopOf="@+id/top"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="32sp"
+        android:text="@string/day6_and_the_denimalz"
+        android:textColor="@color/text"
+        android:fontFamily="@font/bakso_sapi"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/top" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/click_for_the_next_denimal"
+        android:layout_margin="10dp"
+        android:textSize="18sp"
+        android:backgroundTint="@color/colorPrimary"
+        android:fontFamily="@font/bakso_sapi"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/display" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Cool Colors</string>
+    <string name="upload_an_image_and_drag_your_finger_over_it_to_determine_the_colors">Upload an image and drag your finger over it to determine the colors</string>
+    <string name="upload">Upload</string>
+    <string name="back">Back</string>
+    <string name="upload_an_image">Upload an image</string>
+    <string name="take_your_own_picture">Take your own picture</string>
+    <string name="info">Hi Mr Tra! Thanks for being an awesome teacher and making Mobile so much
+        fun! I really enjoy your class and the stories/jokes you tell and I\'ve learned a lot about
+        mobile apps too :)) I will come visit you when school opens again!! \n \nPS stream stray kids
+        :DD</string>
+    <string name="how_it_works">Special Bonus</string>
+    <string name="colorvision">Cool Colors</string>
+    <string name="get_started">Look at Colors</string>
+</resources>

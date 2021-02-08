@@ -1,0 +1,13 @@
+include ':app10'
+include ':hacktj'
+include ':app09f'
+include ':app09'
+include ':app08'
+include ':app07'
+include ':app06'
+include ':app05'
+include ':app04'
+include ':app:app033'
+include ':app02'
+include ':app01'
+rootProject.name = "App01"

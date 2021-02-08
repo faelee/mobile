@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "164903724462",
+    "firebase_url": "https://app09-firebase-67127.firebaseio.com",
+    "project_id": "app09-firebase-67127",
+    "storage_bucket": "app09-firebase-67127.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:164903724462:android:98acef9967fc3cba80d43f",
+        "android_client_info": {
+          "package_name": "com.liyeefay.app09"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "164903724462-p0v73oaqtsa9k867q910mkh4pfnmigfc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhP3pDz6-keBxrkT6VrD2aacAjcAoroK4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "164903724462-p0v73oaqtsa9k867q910mkh4pfnmigfc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

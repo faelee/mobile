@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">app09</string>
+    <string name="email">Email</string>
+    <string name="password">password</string>
+    <string name="enter_password">enter password</string>
+    <string name="enter_email">enter email</string>
+    <string name="sign_in_with_existing_account">sign in with existing account</string>
+    <string name="create_new_account">create new account</string>
+    <string name="status">status</string>
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">app08</string>
+    <string name="misaki_run_away_from_usui">Misaki, run away from Usui!</string>
+    <string name="play_again">Play Again!</string>
+    <string name="down">Down</string>
+    <string name="left">Left</string>
+    <string name="right">Right</string>
+    <string name="up">Up</string>
+    <string name="use_the_buttons_to_navigate">Use the buttons to navigate!</string>
+    <string name="tap_to_reset">Tap to reset!</string>
+</resources>

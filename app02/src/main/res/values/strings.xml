@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">app02</string>
+    <string name="your_name_here">Who\'s your favorite Denimal?</string>
+    <string name="type_your_name_here">Type here!</string>
+    <string name="enter">enter</string>
+    <string name="stray_kids">Get to Know the Denimalz!</string>
+    <string name="tap_for_the_next_stray_kid">tap for the next Denimal!</string>
+    <string name="fave">\ is my favorite Denimal!</string>
+    <string-array name="day6_array">
+        <item>Bang</item>
+        <item>Jje</item>
+        <item>Ke</item>
+        <item>Pil</item>
+        <item>Don</item>
+    </string-array>
+</resources>

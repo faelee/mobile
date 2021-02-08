@@ -1,0 +1,3 @@
+include ':First App Wow!'
+include ':app'
+rootProject.name = "First App"

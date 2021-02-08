@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">app03</string>
+    <string name="reset">reset</string>
+    <string name="specify_your_font_size_here">specify your font size here</string>
+    <string name="set_font_size">set font size</string>
+    <string name="font_size_15">font size: 15</string>
+</resources>

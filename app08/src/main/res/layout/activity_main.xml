@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yellow"
+    tools:context=".MainActivity">
+
+    <view
+        android:id="@+id/drawView"
+        class="com.liyeefay.app08.DrawView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/up"
+        app:layout_constraintTop_toBottomOf="@+id/tapInfo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:id="@+id/display"
+        android:textSize="11pt"
+        android:textColor="@color/black"
+        android:fontFamily="@font/smiley_cat"
+        android:text="@string/misaki_run_away_from_usui" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:layout_constraintTop_toBottomOf="@id/display"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:id="@+id/tapInfo"
+        android:textSize="5pt"
+        android:textColor="@color/black"
+        android:fontFamily="@font/smiley_cat"
+        android:text="@string/tap_to_reset" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:backgroundTint="@color/gold"
+        android:layout_margin="10dp"
+        android:id="@+id/down"
+        android:textSize="10pt"
+        android:textColor="@color/black"
+        android:fontFamily="@font/smiley_cat"
+        android:text="@string/down"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/down"
+        android:backgroundTint="@color/gold"
+        android:layout_margin="10dp"
+        android:id="@+id/left"
+        android:textSize="10pt"
+        android:textColor="@color/black"
+        android:fontFamily="@font/smiley_cat"
+        android:text="@string/left" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/down"
+        android:backgroundTint="@color/gold"
+        android:layout_margin="10dp"
+        android:id="@+id/right"
+        android:textSize="10pt"
+        android:textColor="@color/black"
+        android:fontFamily="@font/smiley_cat"
+        android:text="@string/right" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/left"
+        android:backgroundTint="@color/gold"
+        android:layout_margin="10dp"
+        android:id="@+id/up"
+        android:textSize="10pt"
+        android:textColor="@color/black"
+        android:fontFamily="@font/smiley_cat"
+        android:text="@string/up"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/up"
+        app:layout_constraintBottom_toTopOf="@id/down"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:id="@+id/buttoninfo"
+        android:textSize="5pt"
+        android:textColor="@color/black"
+        android:fontFamily="@font/smiley_cat"
+        android:text="@string/use_the_buttons_to_navigate" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

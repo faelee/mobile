@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">The Denimalz</string>
+    <string name="day6_and_the_denimalz">DAY6 AND THE DENIMALZ</string>
+    <string name="which_denimal">which Denimal?</string>
+    <string name="enter">enter</string>
+    <string name="click_for_the_next_denimal">click for the next Denimal!</string>
+    <string name="click_to_learn_more">learn more about DAY6!</string>
+    <string name="go_back_to_the_denimalz">go back to the Denimalz!</string>
+    <string name="day6">DAY6</string>
+    <string name="fandom_my_day">fandom: My Day</string>
+    <string-array name="day6_array">
+        <item>Bang</item>
+        <item>Jje</item>
+        <item>Ke</item>
+        <item>Pil</item>
+        <item>Don</item>
+        <item>DAY6 AND THE DENIMALZ</item>
+    </string-array>
+    <string-array name="images">
+        <item>bang</item>
+        <item>jje</item>
+        <item>ke</item>
+        <item>pil</item>
+        <item>don</item>
+        <item>day6</item>
+    </string-array>
+    <string name ="sungjin">{Name: \"Sungjin\", Denimal: \"Bang\", Nickname: \"Bob the Builder\", Position: \"Leader, Main Vocalist, Rhythm Guitarist\", Birthday: \"1/16/1993\", MBTI: \"ENFJ\"}</string>
+    <string name ="jae">{Name: \"Jae\", Denimal: \"Jje\", Nickname: \"Chicken Little\", Position: \"Face of the Group, Main Vocalist, Lead Guitarist\", Birthday: \"9/15/1992\", MBTI: \"INTP\"}</string>
+    <string name ="youngk">{Name: \"Young K\", Denimal: \"Ke\", Nickname: \"Brian Kang\", Position: \"Main Rapper, Main Vocalist, Bassist\", Birthday: \"12/19/1993\", MBTI: \"ENTP\"}</string>
+    <string name="wonpil">{Name: \"Wonpil\", Denimal: \"Pil\", Nickname: \"Gu Maknae\", Position: \"Main Vocalist, Keyboardist, Synthesizer\", Birthday: \"4/28/1994\", MBTI: \"INFP\"}</string>
+    <string name="dowoon">{Name: \"Dowoon\", Denimal: \"Don\", Nickname: \"Drum\", Position: \"Drummer, Vocalist, Maknae\", Birthday: \"8/25/1995\", MBTI: \"ISFP\"}</string>
+    <string name="newline">\n\n\n\n\n\n\n\n</string>
+    <string name="a_korean_rock_band_that_debuted_on_9_7_2015">A Korean rock band that debuted on 9/7/2015</string>
+</resources>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/background">
+
+    <TextView
+        android:id="@+id/display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/your_name_here"
+        android:fontFamily="@font/bakso_sapi"
+        android:textSize="20sp"
+        android:layout_margin="20dp"
+        android:textColor="@color/dark"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/next" />
+
+    <EditText
+        android:id="@+id/edit"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColorHint="@color/text"
+        android:textColor="@color/dark"
+        android:fontFamily="@font/bakso_sapi"
+        android:hint="@string/type_your_name_here"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/display"/>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enter"
+        android:onClick="enter"
+        android:textColor="@color/dark"
+        android:fontFamily="@font/bakso_sapi"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edit" />
+
+    <ImageView
+        android:id="@+id/pic"
+        android:layout_width="150sp"
+        android:layout_height="300sp"
+        android:src="@drawable/day6"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/arrayDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="23sp"
+        android:layout_margin="80dp"
+        android:textColor="@color/dark"
+        android:fontFamily="@font/bakso_sapi"
+        android:text="@string/stray_kids"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="cycle"
+        android:textColor="@color/dark"
+        android:fontFamily="@font/bakso_sapi"
+        android:text="@string/tap_for_the_next_stray_kid"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/arrayDisplay" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
